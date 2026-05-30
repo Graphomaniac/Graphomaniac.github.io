@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Notes on Grisha Taroyan</title>
+		<link>https://grishataroyan.org/notes/</link>
+		<description>Recent content in Notes on Grisha Taroyan</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://grishataroyan.org/notes/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Papers</title>
+				<link>https://grishataroyan.org/notes/papers/</link>
+				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>https://grishataroyan.org/notes/papers/</guid>
+				<description>&lt;h2 id=&#34;derived-differential-geometry&#34;&gt;Derived differential geometry&lt;/h2&gt;&#xA;&lt;h3 id=&#34;de-rham-theory-in-derived-differential-geometry-arxiv250503978&#34;&gt;De Rham theory in derived differential geometry (&lt;a href=&#34;https://arxiv.org/abs/2505.03978&#34;&gt;arXiv:2505.03978&lt;/a&gt;)&lt;/h3&gt;&#xA;&lt;p&gt;The main question this text addresses is: What is the correct notion of de Rham cohomology for derived manifolds? We identify two natural answers to this question: one in terms of the cotangent complex and one in terms of the so-called C-infinity de Rham stack. It turns out that while the first version is very algebraically nice, it might not satisfy the Poincaré lemma for general derived manifolds. On the other hand, the second version is very hard to compute. Still, it gives a kind of de Rham isomorphism with the cohomology of the constant sheaf on the underlying topological space of a derived manifold. We also provide sufficient conditions for when the de Rham cohomology calculated using the cotangent complex is isomorphic to the constant sheaf cohomology.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

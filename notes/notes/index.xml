@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Notes on Grisha Taroyan</title>
+		<link>https://grishataroyan.org/notes/notes/</link>
+		<description>Recent content in Notes on Grisha Taroyan</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://grishataroyan.org/notes/notes/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Expository notes</title>
+				<link>https://grishataroyan.org/notes/notes/expository-notes/</link>
+				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>https://grishataroyan.org/notes/notes/expository-notes/</guid>
+				<description>&lt;h2 id=&#34;derived-regularity-theorem-for-moduli-spaces-of-ψ-holomorphic-curves-after-j-pardon&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q6dDExQ9xYUhhrMr1_hNxvnodQxab6qY/view?usp=sharing&#34;&gt;Derived Regularity Theorem for Moduli Spaces of ψ-holomorphic curves (after J. Pardon)&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The purpose of this note is to explain a proof of the derived regularity theorem following the &lt;a href=&#34;https://johnpardon.com/holomorphiccurves-2025-04.pdf&#34;&gt;notes&lt;/a&gt; of John Pardon. The notes were prepared for a talk at the moduli spaces ψ-holomorphic curves &lt;a href=&#34;https://hiroleetanaka.com/workshop-2025/index.php?pageID=application&#34;&gt;workshop&lt;/a&gt; organized by Hiro Lee Tanaka and John Pardon.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stable-moduli-spaces-of-hermitian-forms-a-review&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/16YQ_uFOhs7MjqiYj8U1FymcZeHyKRhEv/view?usp=sharing&#34;&gt;Stable Moduli Spaces of Hermitian Forms. A review.&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The purpose of this note is to explain the main results of the paper &lt;a href=&#34;https://arxiv.org/abs/2103.13911&#34;&gt;&amp;ldquo;Stable moduli spaces of hermitian forms&amp;rdquo;&lt;/a&gt; by Hebestreit&amp;ndash;Steimle in an accessible to the general topological audience way. The notes were prepared for the &lt;a href=&#34;https://www.utsc.utoronto.ca/people/kupers/seminars/learning-seminar-on-hermitian-k-theory/&#34;&gt;seminar on Hermitian K-theory&lt;/a&gt; at University of Toronto.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Expository notes in Russian</title>
+				<link>https://grishataroyan.org/notes/notes/expository-notes-in-russian/</link>
+				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>https://grishataroyan.org/notes/notes/expository-notes-in-russian/</guid>
+				<description>&lt;h2 id=&#34;an-informal-note-on-a-geometric-definition-of-the-chern-classes&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1WHm0miuPjFNmJHLhhS9zOlIIzjLkhED1/view?usp=sharing&#34;&gt;An informal note on a geometric definition of the Chern classes&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;В тексте приводится два подхода к доказательству формулы Уитни для суммы расслоений. Один из них хорошо известен и основан на комбинаторике классов Шуберта в Грассманниане, другой менее известен и основан на интерпретации характеристических классов, как двойственных по Пуанкаре локусам вырождений. За точное рассуждение в этом случае я обязан А. Рябичеву и форуму MathModern.&lt;/p&gt;&#xA;&lt;p&gt;Почти весь материал основан на двух источниках: книге &amp;ldquo;3264 и всё такое: Введение в теорию пересечений&amp;rdquo; Айзенбада и Харриса, а также на &amp;ldquo;Принципах Алгебраической Геометрии&amp;rdquo; Гриффитса и Харриса.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

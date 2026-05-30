@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>High-school courses on Grisha Taroyan</title>
+		<link>https://grishataroyan.org/notes/notes/high-school-courses/</link>
+		<description>Recent content in High-school courses on Grisha Taroyan</description>
+		<generator>Hugo</generator>
+		<language>en-US</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://grishataroyan.org/notes/notes/high-school-courses/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Discrete differential geometry for high school (in Russian)</title>
+				<link>https://grishataroyan.org/notes/notes/high-school-courses/discrete-differential-geometry-for-high-school-in-russian/</link>
+				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>https://grishataroyan.org/notes/notes/high-school-courses/discrete-differential-geometry-for-high-school-in-russian/</guid>
+				<description>&lt;h2 id=&#34;дискретная-дифференциальная-геометрия-для-школьников&#34;&gt;Дискретная дифференциальная геометрия для школьников&lt;/h2&gt;&#xA;&lt;h3 id=&#34;презентация---обзор-теоретического-материала&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1q90O2fUJmwvVOZdeCmoF1Q6iN9eEMSln/view?usp=drivesdk&#34;&gt;Презентация - обзор теоретического материала&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;В презентации даётся краткое описание основных теоретических понятий встречающихся в рамках практикума. В частности приведены определения многогранной поверхности, дискретной кривизны, геодезических. Приведены наброски доказательств основных теорем практикума: Гаусса&amp;ndash;Бонне, существования геодезических на многогранной поверхности и др.&lt;/p&gt;&#xA;&lt;h3 id=&#34;задачи-практикума&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/14NQcL2wKOBjoVhs7Xm-9P9Aqp1U66hSd/view?usp=drivesdk&#34;&gt;Задачи практикума&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Материал представляет собой комбинацию теоретической части и задач дополняющих и раскрывающих теорию.&lt;/p&gt;&#xA;&lt;p&gt;Warning: в некоторых задачах содержатся опечатки и даже неустранимые пробелы.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Topology basics for high school (in Russian)</title>
+				<link>https://grishataroyan.org/notes/notes/high-school-courses/topology-basics-for-high-school-in-russian/</link>
+				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
+				<guid>https://grishataroyan.org/notes/notes/high-school-courses/topology-basics-for-high-school-in-russian/</guid>
+				<description>&lt;h2 id=&#34;основы-топологии&#34;&gt;Основы топологии&lt;/h2&gt;&#xA;&lt;h3 id=&#34;информационное-сообщение&#34;&gt;Информационное сообщение&lt;/h3&gt;&#xA;&lt;p&gt;Курс проводится в СУНЦ МГУ в 2021&amp;ndash;2022 учебном году. Начало занятий 8 октября. Место проведения Zoom. Пишите на почту &lt;a href=&#34;mailto:tgv628@yahoo.com&#34;&gt;tgv628@yahoo.com&lt;/a&gt;, если хотите ссылку.&lt;/p&gt;&#xA;&lt;h3 id=&#34;конспекты-курса&#34;&gt;Конспекты курса&lt;/h3&gt;&#xA;&lt;p&gt;Остались в недоделанном виде, но что-то там есть: &lt;a href=&#34;https://drive.google.com/file/d/1O6WslFI1OIkhVTK5mA1u9pS_3GGoiOXs/view?usp=sharing&#34;&gt;конспекты курса&lt;/a&gt;.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
