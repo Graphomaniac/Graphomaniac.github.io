@@ -1,80 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Grisha Taroyan</title>
-		<link>https://grishataroyan.org/</link>
-		<description>Recent content on Grisha Taroyan</description>
-		<generator>Hugo</generator>
-		<language>en-US</language>
-		
-		
-		
-		
-			<lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="https://grishataroyan.org/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>Discrete differential geometry for high school (in Russian)</title>
-				<link>https://grishataroyan.org/notes/notes/high-school-courses/discrete-differential-geometry-for-high-school-in-russian/</link>
-				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://grishataroyan.org/notes/notes/high-school-courses/discrete-differential-geometry-for-high-school-in-russian/</guid>
-				<description>&lt;h2 id=&#34;дискретная-дифференциальная-геометрия-для-школьников&#34;&gt;Дискретная дифференциальная геометрия для школьников&lt;/h2&gt;&#xA;&lt;h3 id=&#34;презентация---обзор-теоретического-материала&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1q90O2fUJmwvVOZdeCmoF1Q6iN9eEMSln/view?usp=drivesdk&#34;&gt;Презентация - обзор теоретического материала&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;В презентации даётся краткое описание основных теоретических понятий встречающихся в рамках практикума. В частности приведены определения многогранной поверхности, дискретной кривизны, геодезических. Приведены наброски доказательств основных теорем практикума: Гаусса&amp;ndash;Бонне, существования геодезических на многогранной поверхности и др.&lt;/p&gt;&#xA;&lt;h3 id=&#34;задачи-практикума&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/14NQcL2wKOBjoVhs7Xm-9P9Aqp1U66hSd/view?usp=drivesdk&#34;&gt;Задачи практикума&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Материал представляет собой комбинацию теоретической части и задач дополняющих и раскрывающих теорию.&lt;/p&gt;&#xA;&lt;p&gt;Warning: в некоторых задачах содержатся опечатки и даже неустранимые пробелы.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Expository notes</title>
-				<link>https://grishataroyan.org/notes/notes/expository-notes/</link>
-				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://grishataroyan.org/notes/notes/expository-notes/</guid>
-				<description>&lt;h2 id=&#34;derived-regularity-theorem-for-moduli-spaces-of-ψ-holomorphic-curves-after-j-pardon&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q6dDExQ9xYUhhrMr1_hNxvnodQxab6qY/view?usp=sharing&#34;&gt;Derived Regularity Theorem for Moduli Spaces of ψ-holomorphic curves (after J. Pardon)&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The purpose of this note is to explain a proof of the derived regularity theorem following the &lt;a href=&#34;https://johnpardon.com/holomorphiccurves-2025-04.pdf&#34;&gt;notes&lt;/a&gt; of John Pardon. The notes were prepared for a talk at the moduli spaces ψ-holomorphic curves &lt;a href=&#34;https://hiroleetanaka.com/workshop-2025/index.php?pageID=application&#34;&gt;workshop&lt;/a&gt; organized by Hiro Lee Tanaka and John Pardon.&lt;/p&gt;&#xA;&lt;h2 id=&#34;stable-moduli-spaces-of-hermitian-forms-a-review&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/16YQ_uFOhs7MjqiYj8U1FymcZeHyKRhEv/view?usp=sharing&#34;&gt;Stable Moduli Spaces of Hermitian Forms. A review.&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The purpose of this note is to explain the main results of the paper &lt;a href=&#34;https://arxiv.org/abs/2103.13911&#34;&gt;&amp;ldquo;Stable moduli spaces of hermitian forms&amp;rdquo;&lt;/a&gt; by Hebestreit&amp;ndash;Steimle in an accessible to the general topological audience way. The notes were prepared for the &lt;a href=&#34;https://www.utsc.utoronto.ca/people/kupers/seminars/learning-seminar-on-hermitian-k-theory/&#34;&gt;seminar on Hermitian K-theory&lt;/a&gt; at University of Toronto.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Expository notes in Russian</title>
-				<link>https://grishataroyan.org/notes/notes/expository-notes-in-russian/</link>
-				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://grishataroyan.org/notes/notes/expository-notes-in-russian/</guid>
-				<description>&lt;h2 id=&#34;an-informal-note-on-a-geometric-definition-of-the-chern-classes&#34;&gt;&lt;a href=&#34;https://drive.google.com/file/d/1WHm0miuPjFNmJHLhhS9zOlIIzjLkhED1/view?usp=sharing&#34;&gt;An informal note on a geometric definition of the Chern classes&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;В тексте приводится два подхода к доказательству формулы Уитни для суммы расслоений. Один из них хорошо известен и основан на комбинаторике классов Шуберта в Грассманниане, другой менее известен и основан на интерпретации характеристических классов, как двойственных по Пуанкаре локусам вырождений. За точное рассуждение в этом случае я обязан А. Рябичеву и форуму MathModern.&lt;/p&gt;&#xA;&lt;p&gt;Почти весь материал основан на двух источниках: книге &amp;ldquo;3264 и всё такое: Введение в теорию пересечений&amp;rdquo; Айзенбада и Харриса, а также на &amp;ldquo;Принципах Алгебраической Геометрии&amp;rdquo; Гриффитса и Харриса.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>MGSA 2025-2026</title>
-				<link>https://grishataroyan.org/other/mgsa-2025-2026/</link>
-				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://grishataroyan.org/other/mgsa-2025-2026/</guid>
-				<description>&lt;p&gt;This page is preserved from the old site. No public content was present on the live Google Sites page at the time of migration.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Notes</title>
-				<link>https://grishataroyan.org/blog/</link>
-				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://grishataroyan.org/blog/</guid>
-				<description>&lt;p&gt;This section contains my expository notes, high-school course materials, and links to more detailed legacy pages from the old site.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://grishataroyan.org/notes/papers/&#34;&gt;Papers with abstracts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://grishataroyan.org/notes/notes/expository-notes/&#34;&gt;Expository notes&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://grishataroyan.org/notes/notes/expository-notes-in-russian/&#34;&gt;Expository notes in Russian&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://grishataroyan.org/notes/notes/high-school-courses/&#34;&gt;High-school courses&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;expository-notes-in-english&#34;&gt;Expository notes in English&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Q6dDExQ9xYUhhrMr1_hNxvnodQxab6qY/view?usp=sharing&#34;&gt;Derived Regularity Theorem for Moduli Spaces of ψ-holomorphic curves (after J. Pardon)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The purpose of this note is to explain a proof of the derived regularity theorem following the notes of John Pardon. The notes were prepared for a talk at the moduli spaces ψ-holomorphic curves workshop.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/16YQ_uFOhs7MjqiYj8U1FymcZeHyKRhEv/view?usp=sharing&#34;&gt;Stable Moduli Spaces of Hermitian Forms. A review.&lt;/a&gt;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Papers</title>
-				<link>https://grishataroyan.org/notes/papers/</link>
-				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://grishataroyan.org/notes/papers/</guid>
-				<description>&lt;h2 id=&#34;derived-differential-geometry&#34;&gt;Derived differential geometry&lt;/h2&gt;&#xA;&lt;h3 id=&#34;de-rham-theory-in-derived-differential-geometry-arxiv250503978&#34;&gt;De Rham theory in derived differential geometry (&lt;a href=&#34;https://arxiv.org/abs/2505.03978&#34;&gt;arXiv:2505.03978&lt;/a&gt;)&lt;/h3&gt;&#xA;&lt;p&gt;The main question this text addresses is: What is the correct notion of de Rham cohomology for derived manifolds? We identify two natural answers to this question: one in terms of the cotangent complex and one in terms of the so-called C-infinity de Rham stack. It turns out that while the first version is very algebraically nice, it might not satisfy the Poincaré lemma for general derived manifolds. On the other hand, the second version is very hard to compute. Still, it gives a kind of de Rham isomorphism with the cohomology of the constant sheaf on the underlying topological space of a derived manifold. We also provide sufficient conditions for when the de Rham cohomology calculated using the cotangent complex is isomorphic to the constant sheaf cohomology.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Personal</title>
-				<link>https://grishataroyan.org/other/personal/</link>
-				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://grishataroyan.org/other/personal/</guid>
-				<description>&lt;h2 id=&#34;personal-life&#34;&gt;Personal life&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://grishataroyan.org/images/personal/alisa.jpg&#34; alt=&#34;Alisa Chistopolskaya&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I happen to be married to an incredible mathematician Alisa Chistopolskaya.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://grishataroyan.org/images/personal/sheavetz-and-pafnutiy.jpg&#34; alt=&#34;Sheavetz and Pafnuty Lvovich Chebyshev&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Our two cats Sheavetz (small sheaf) and Pafnuty Lvovich Chebyshev.&lt;/p&gt;&#xA;&lt;p&gt;Since now it is prohibited in Russia to spread LGBTQIA+ &amp;ldquo;propaganda,&amp;rdquo; here is an official admission: I am an asexual. Fuck Vladimir Putin, Roskomnadzor, the Russian parliament, and all other Russian &amp;ldquo;authorities&amp;rdquo; responsible for this &amp;ldquo;law&amp;rdquo; and everything else that happened before, after, and during 2022.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Research</title>
-				<link>https://grishataroyan.org/research/</link>
-				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://grishataroyan.org/research/</guid>
-				<description>&lt;h2 id=&#34;papers&#34;&gt;Papers&lt;/h2&gt;&#xA;&lt;h3 id=&#34;derived-geometry&#34;&gt;Derived geometry&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;De Rham Theory in Derived Differential Geometry &lt;a href=&#34;https://arxiv.org/abs/2505.03978&#34;&gt;arxiv:2505.03978&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Equivalent models of derived stacks &lt;a href=&#34;https://arxiv.org/abs/2303.12699&#34;&gt;arXiv:2303.12699&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;toric-geometry&#34;&gt;Toric Geometry&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Chern Classes of Toric Variety Bundles &lt;a href=&#34;https://arxiv.org/abs/2506.20848&#34;&gt;arXiv:2506.20848&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Equivariant automorphisms of the Cox construction and applications &lt;a href=&#34;https://arxiv.org/abs/2403.02465&#34;&gt;arXiv:2403.02465&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Infinite transitivity for automorphism groups of the affine plane (with Alisa Chistopolskaya) &lt;a href=&#34;https://arxiv.org/abs/2202.02214&#34;&gt;arXiv:2202.02214&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;talks&#34;&gt;Talks&lt;/h2&gt;&#xA;&lt;h3 id=&#34;2025&#34;&gt;2025&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;De Rham theory in derived differential geometry, Quantum Field Theory and Physical Mathematics Seminar, Harvard University, Center for Mathematical Sciences and Applications, Cambridge, MA&lt;/li&gt;&#xA;&lt;li&gt;De Rham theory in derived differential geometry, flash talk, Summer Research Institute in Algebraic Geometry, Fort Collins, CO, &lt;a href=&#34;https://drive.google.com/file/d/1kftaq03rgsUSbxCtayXTEghfGHlnGL_v/view?usp=sharing&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Why you should care about derived manifolds, flash talk, Summer School Physical Mathematics of Quantum Field Theory, UMass Amherst&lt;/li&gt;&#xA;&lt;li&gt;De Rham theory in derived differential geometry, Geometric Structures Laboratory, Fields Institute, &lt;a href=&#34;https://www.fields.utoronto.ca/talks/de-Rham-theory-derived-differential-geometry&#34;&gt;recording&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2024&#34;&gt;2024&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Equivalent models of derived stacks, Summer CMS/Thematic Program on Field Theory at Notre Dame, &lt;a href=&#34;https://drive.google.com/file/d/1NQkjp5ObQ4FhCeB-W0sv-o88yTr9SCRD/view?usp=sharing&#34;&gt;slides&lt;/a&gt;, &lt;a href=&#34;https://drive.google.com/file/d/1YQ_UmsFGSI2OIdH2gEnDpG5lgZMdFjXr/view?usp=sharing&#34;&gt;poster&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Unhinged Derived Mechanisms, Bird&amp;rsquo;s Eye Math Conference at UofT, &lt;a href=&#34;https://drive.google.com/file/d/1u95xy7YLIFY_JB80DM87Hizceqol-_lK/view?usp=sharing&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2023&#34;&gt;2023&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Equivalent models of derived stacks, GROOT seminar, &lt;a href=&#34;https://drive.google.com/file/d/1CdBBlNjzyk2Stx4B7kVU5tvkCVkL9Lb2/view?usp=sharing&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-			</item>
-			<item>
-				<title>Topology basics for high school (in Russian)</title>
-				<link>https://grishataroyan.org/notes/notes/high-school-courses/topology-basics-for-high-school-in-russian/</link>
-				<pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate>
-				<guid>https://grishataroyan.org/notes/notes/high-school-courses/topology-basics-for-high-school-in-russian/</guid>
-				<description>&lt;h2 id=&#34;основы-топологии&#34;&gt;Основы топологии&lt;/h2&gt;&#xA;&lt;h3 id=&#34;информационное-сообщение&#34;&gt;Информационное сообщение&lt;/h3&gt;&#xA;&lt;p&gt;Курс проводится в СУНЦ МГУ в 2021&amp;ndash;2022 учебном году. Начало занятий 8 октября. Место проведения Zoom. Пишите на почту &lt;a href=&#34;mailto:tgv628@yahoo.com&#34;&gt;tgv628@yahoo.com&lt;/a&gt;, если хотите ссылку.&lt;/p&gt;&#xA;&lt;h3 id=&#34;конспекты-курса&#34;&gt;Конспекты курса&lt;/h3&gt;&#xA;&lt;p&gt;Остались в недоделанном виде, но что-то там есть: &lt;a href=&#34;https://drive.google.com/file/d/1O6WslFI1OIkhVTK5mA1u9pS_3GGoiOXs/view?usp=sharing&#34;&gt;конспекты курса&lt;/a&gt;.&lt;/p&gt;</description>
-			</item>
-	</channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Grisha Taroyan</title><link>https://grishataroyan.org/</link><description>Recent content on Grisha Taroyan</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sun, 22 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://grishataroyan.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Discrete differential geometry for high school (in Russian)</title><link>https://grishataroyan.org/notes/notes/high-school-courses/discrete-differential-geometry-for-high-school-in-russian/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://grishataroyan.org/notes/notes/high-school-courses/discrete-differential-geometry-for-high-school-in-russian/</guid><description>&lt;h2 id="дискретная-дифференциальная-геометрия-для-школьников"&gt;Дискретная дифференциальная геометрия для школьников&lt;/h2&gt;
+&lt;h3 id="презентация---обзор-теоретического-материала"&gt;&lt;a href="https://drive.google.com/file/d/1q90O2fUJmwvVOZdeCmoF1Q6iN9eEMSln/view?usp=drivesdk"&gt;Презентация - обзор теоретического материала&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;В презентации даётся краткое описание основных теоретических понятий встречающихся в рамках практикума. В частности приведены определения многогранной поверхности, дискретной кривизны, геодезических. Приведены наброски доказательств основных теорем практикума: Гаусса&amp;ndash;Бонне, существования геодезических на многогранной поверхности и др.&lt;/p&gt;
+&lt;h3 id="задачи-практикума"&gt;&lt;a href="https://drive.google.com/file/d/14NQcL2wKOBjoVhs7Xm-9P9Aqp1U66hSd/view?usp=drivesdk"&gt;Задачи практикума&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Материал представляет собой комбинацию теоретической части и задач дополняющих и раскрывающих теорию.&lt;/p&gt;
+&lt;p&gt;Warning: в некоторых задачах содержатся опечатки и даже неустранимые пробелы.&lt;/p&gt;</description></item><item><title>Expository notes</title><link>https://grishataroyan.org/notes/notes/expository-notes/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://grishataroyan.org/notes/notes/expository-notes/</guid><description>&lt;h2 id="derived-regularity-theorem-for-moduli-spaces-of-ψ-holomorphic-curves-after-j-pardon"&gt;&lt;a href="https://drive.google.com/file/d/1Q6dDExQ9xYUhhrMr1_hNxvnodQxab6qY/view?usp=sharing"&gt;Derived Regularity Theorem for Moduli Spaces of ψ-holomorphic curves (after J. Pardon)&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The purpose of this note is to explain a proof of the derived regularity theorem following the &lt;a href="https://johnpardon.com/holomorphiccurves-2025-04.pdf"&gt;notes&lt;/a&gt; of John Pardon. The notes were prepared for a talk at the moduli spaces ψ-holomorphic curves &lt;a href="https://hiroleetanaka.com/workshop-2025/index.php?pageID=application"&gt;workshop&lt;/a&gt; organized by Hiro Lee Tanaka and John Pardon.&lt;/p&gt;
+&lt;h2 id="stable-moduli-spaces-of-hermitian-forms-a-review"&gt;&lt;a href="https://drive.google.com/file/d/16YQ_uFOhs7MjqiYj8U1FymcZeHyKRhEv/view?usp=sharing"&gt;Stable Moduli Spaces of Hermitian Forms. A review.&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The purpose of this note is to explain the main results of the paper &lt;a href="https://arxiv.org/abs/2103.13911"&gt;&amp;ldquo;Stable moduli spaces of hermitian forms&amp;rdquo;&lt;/a&gt; by Hebestreit&amp;ndash;Steimle in an accessible to the general topological audience way. The notes were prepared for the &lt;a href="https://www.utsc.utoronto.ca/people/kupers/seminars/learning-seminar-on-hermitian-k-theory/"&gt;seminar on Hermitian K-theory&lt;/a&gt; at University of Toronto.&lt;/p&gt;</description></item><item><title>Expository notes in Russian</title><link>https://grishataroyan.org/notes/notes/expository-notes-in-russian/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://grishataroyan.org/notes/notes/expository-notes-in-russian/</guid><description>&lt;h2 id="an-informal-note-on-a-geometric-definition-of-the-chern-classes"&gt;&lt;a href="https://drive.google.com/file/d/1WHm0miuPjFNmJHLhhS9zOlIIzjLkhED1/view?usp=sharing"&gt;An informal note on a geometric definition of the Chern classes&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;В тексте приводится два подхода к доказательству формулы Уитни для суммы расслоений. Один из них хорошо известен и основан на комбинаторике классов Шуберта в Грассманниане, другой менее известен и основан на интерпретации характеристических классов, как двойственных по Пуанкаре локусам вырождений. За точное рассуждение в этом случае я обязан А. Рябичеву и форуму MathModern.&lt;/p&gt;
+&lt;p&gt;Почти весь материал основан на двух источниках: книге &amp;ldquo;3264 и всё такое: Введение в теорию пересечений&amp;rdquo; Айзенбада и Харриса, а также на &amp;ldquo;Принципах Алгебраической Геометрии&amp;rdquo; Гриффитса и Харриса.&lt;/p&gt;</description></item><item><title>MGSA 2025-2026</title><link>https://grishataroyan.org/other/mgsa-2025-2026/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://grishataroyan.org/other/mgsa-2025-2026/</guid><description>&lt;p&gt;This page is preserved from the old site. No public content was present on the live Google Sites page at the time of migration.&lt;/p&gt;</description></item><item><title>Notes</title><link>https://grishataroyan.org/blog/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://grishataroyan.org/blog/</guid><description>&lt;p&gt;This section contains my expository notes, high-school course materials, and links to more detailed legacy pages from the old site.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://grishataroyan.org/notes/papers/"&gt;Papers with abstracts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://grishataroyan.org/notes/notes/expository-notes/"&gt;Expository notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://grishataroyan.org/notes/notes/expository-notes-in-russian/"&gt;Expository notes in Russian&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://grishataroyan.org/notes/notes/high-school-courses/"&gt;High-school courses&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="expository-notes-in-english"&gt;Expository notes in English&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/1Q6dDExQ9xYUhhrMr1_hNxvnodQxab6qY/view?usp=sharing"&gt;Derived Regularity Theorem for Moduli Spaces of ψ-holomorphic curves (after J. Pardon)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The purpose of this note is to explain a proof of the derived regularity theorem following the notes of John Pardon. The notes were prepared for a talk at the moduli spaces ψ-holomorphic curves workshop.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/file/d/16YQ_uFOhs7MjqiYj8U1FymcZeHyKRhEv/view?usp=sharing"&gt;Stable Moduli Spaces of Hermitian Forms. A review.&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Papers</title><link>https://grishataroyan.org/notes/papers/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://grishataroyan.org/notes/papers/</guid><description>&lt;h2 id="derived-differential-geometry"&gt;Derived differential geometry&lt;/h2&gt;
+&lt;h3 id="de-rham-theory-in-derived-differential-geometry-arxiv250503978"&gt;De Rham theory in derived differential geometry (&lt;a href="https://arxiv.org/abs/2505.03978"&gt;arXiv:2505.03978&lt;/a&gt;)&lt;/h3&gt;
+&lt;p&gt;The main question this text addresses is: What is the correct notion of de Rham cohomology for derived manifolds? We identify two natural answers to this question: one in terms of the cotangent complex and one in terms of the so-called C-infinity de Rham stack. It turns out that while the first version is very algebraically nice, it might not satisfy the Poincaré lemma for general derived manifolds. On the other hand, the second version is very hard to compute. Still, it gives a kind of de Rham isomorphism with the cohomology of the constant sheaf on the underlying topological space of a derived manifold. We also provide sufficient conditions for when the de Rham cohomology calculated using the cotangent complex is isomorphic to the constant sheaf cohomology.&lt;/p&gt;</description></item><item><title>Personal</title><link>https://grishataroyan.org/other/personal/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://grishataroyan.org/other/personal/</guid><description>&lt;h2 id="personal-life"&gt;Personal life&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://grishataroyan.org/images/personal/alisa.jpg" alt="Alisa Chistopolskaya"&gt;&lt;/p&gt;
+&lt;p&gt;I happen to be married to an incredible mathematician Alisa Chistopolskaya.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://grishataroyan.org/images/personal/sheavetz-and-pafnutiy.jpg" alt="Sheavetz and Pafnuty Lvovich Chebyshev"&gt;&lt;/p&gt;
+&lt;p&gt;Our two cats Sheavetz (small sheaf) and Pafnuty Lvovich Chebyshev.&lt;/p&gt;
+&lt;p&gt;Since now it is prohibited in Russia to spread LGBTQIA+ &amp;ldquo;propaganda,&amp;rdquo; here is an official admission: I am an asexual. Fuck Vladimir Putin, Roskomnadzor, the Russian parliament, and all other Russian &amp;ldquo;authorities&amp;rdquo; responsible for this &amp;ldquo;law&amp;rdquo; and everything else that happened before, after, and during 2022.&lt;/p&gt;</description></item><item><title>Research</title><link>https://grishataroyan.org/research/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://grishataroyan.org/research/</guid><description>&lt;h2 id="papers"&gt;Papers&lt;/h2&gt;
+&lt;h3 id="derived-geometry"&gt;Derived geometry&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;De Rham Theory in Derived Differential Geometry &lt;a href="https://arxiv.org/abs/2505.03978"&gt;arxiv:2505.03978&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Equivalent models of derived stacks &lt;a href="https://arxiv.org/abs/2303.12699"&gt;arXiv:2303.12699&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="toric-geometry"&gt;Toric Geometry&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Chern Classes of Toric Variety Bundles &lt;a href="https://arxiv.org/abs/2506.20848"&gt;arXiv:2506.20848&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Equivariant automorphisms of the Cox construction and applications &lt;a href="https://arxiv.org/abs/2403.02465"&gt;arXiv:2403.02465&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Infinite transitivity for automorphism groups of the affine plane (with Alisa Chistopolskaya) &lt;a href="https://arxiv.org/abs/2202.02214"&gt;arXiv:2202.02214&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="talks"&gt;Talks&lt;/h2&gt;
+&lt;h3 id="2025"&gt;2025&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;De Rham theory in derived differential geometry, Quantum Field Theory and Physical Mathematics Seminar, Harvard University, Center for Mathematical Sciences and Applications, Cambridge, MA&lt;/li&gt;
+&lt;li&gt;De Rham theory in derived differential geometry, flash talk, Summer Research Institute in Algebraic Geometry, Fort Collins, CO, &lt;a href="https://drive.google.com/file/d/1kftaq03rgsUSbxCtayXTEghfGHlnGL_v/view?usp=sharing"&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Why you should care about derived manifolds, flash talk, Summer School Physical Mathematics of Quantum Field Theory, UMass Amherst&lt;/li&gt;
+&lt;li&gt;De Rham theory in derived differential geometry, Geometric Structures Laboratory, Fields Institute, &lt;a href="https://www.fields.utoronto.ca/talks/de-Rham-theory-derived-differential-geometry"&gt;recording&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2024"&gt;2024&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Equivalent models of derived stacks, Summer CMS/Thematic Program on Field Theory at Notre Dame, &lt;a href="https://drive.google.com/file/d/1NQkjp5ObQ4FhCeB-W0sv-o88yTr9SCRD/view?usp=sharing"&gt;slides&lt;/a&gt;, &lt;a href="https://drive.google.com/file/d/1YQ_UmsFGSI2OIdH2gEnDpG5lgZMdFjXr/view?usp=sharing"&gt;poster&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Unhinged Derived Mechanisms, Bird&amp;rsquo;s Eye Math Conference at UofT, &lt;a href="https://drive.google.com/file/d/1u95xy7YLIFY_JB80DM87Hizceqol-_lK/view?usp=sharing"&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2023"&gt;2023&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Equivalent models of derived stacks, GROOT seminar, &lt;a href="https://drive.google.com/file/d/1CdBBlNjzyk2Stx4B7kVU5tvkCVkL9Lb2/view?usp=sharing"&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Topology basics for high school (in Russian)</title><link>https://grishataroyan.org/notes/notes/high-school-courses/topology-basics-for-high-school-in-russian/</link><pubDate>Sun, 22 Feb 2026 00:00:00 +0000</pubDate><guid>https://grishataroyan.org/notes/notes/high-school-courses/topology-basics-for-high-school-in-russian/</guid><description>&lt;h2 id="основы-топологии"&gt;Основы топологии&lt;/h2&gt;
+&lt;h3 id="информационное-сообщение"&gt;Информационное сообщение&lt;/h3&gt;
+&lt;p&gt;Курс проводится в СУНЦ МГУ в 2021&amp;ndash;2022 учебном году. Начало занятий 8 октября. Место проведения Zoom. Пишите на почту &lt;a href="mailto:tgv628@yahoo.com"&gt;tgv628@yahoo.com&lt;/a&gt;, если хотите ссылку.&lt;/p&gt;
+&lt;h3 id="конспекты-курса"&gt;Конспекты курса&lt;/h3&gt;
+&lt;p&gt;Остались в недоделанном виде, но что-то там есть: &lt;a href="https://drive.google.com/file/d/1O6WslFI1OIkhVTK5mA1u9pS_3GGoiOXs/view?usp=sharing"&gt;конспекты курса&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
