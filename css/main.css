@@ -166,16 +166,43 @@ li + li {
 
 .about-section {
   display: grid;
-  grid-template-columns: 150px minmax(0, 1fr);
+  grid-template-columns: 180px minmax(0, 1fr);
   gap: 2rem;
   align-items: start;
   margin-bottom: 2.75rem;
 }
 
-.profile-image img {
-  width: 150px;
+.profile-image {
+  position: relative;
+  width: 180px;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
   border: 1px solid var(--site-border);
   border-radius: 2px;
+  background: var(--pre-bg-color);
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-position-top {
+  object-position: center top;
+}
+
+.profile-position-center {
+  object-position: center center;
+}
+
+.profile-position-left {
+  object-position: 30% center;
+}
+
+.profile-position-right {
+  object-position: 72% center;
 }
 
 .about-text h2 {
@@ -301,7 +328,7 @@ footer .theme-by a {
     gap: 1.2rem;
   }
 
-  .profile-image img {
-    width: 118px;
+  .profile-image {
+    width: 136px;
   }
 }
