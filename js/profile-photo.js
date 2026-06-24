@@ -40,16 +40,21 @@
     },
   ];
 
-  const previousIndex = Number(window.sessionStorage.getItem("profile-photo-index"));
-  let nextIndex = Math.floor(Math.random() * photos.length);
-  if (photos.length > 1 && Number.isInteger(previousIndex)) {
-    while (nextIndex === previousIndex) {
-      nextIndex = Math.floor(Math.random() * photos.length);
+  function randomIndex(length) {
+    if (window.crypto && window.crypto.getRandomValues && window.Uint32Array) {
+      const values = new Uint32Array(1);
+      const range = 0x100000000;
+      const limit = range - (range % length);
+      do {
+        window.crypto.getRandomValues(values);
+      } while (values[0] >= limit);
+      return values[0] % length;
     }
+    return Math.floor(Math.random() * length);
   }
 
+  const nextIndex = randomIndex(photos.length);
   const selected = photos[nextIndex];
-  window.sessionStorage.setItem("profile-photo-index", String(nextIndex));
   image.classList.remove(
     "profile-position-top",
     "profile-position-center",

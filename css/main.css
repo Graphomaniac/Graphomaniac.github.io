@@ -189,6 +189,10 @@ li + li {
   object-fit: cover;
 }
 
+.profile-photo:not([src]) {
+  visibility: hidden;
+}
+
 .profile-position-top {
   object-position: center top;
 }
