@@ -1,4 +1,10 @@
 {
   "version": 1,
-  "posts": []
+  "posts": [
+    {
+      "path": "/blog/no-submanifolds/",
+      "title": "A compact complex surface without divisors",
+      "url": "https://grishataroyan.org/blog/no-submanifolds/"
+    }
+  ]
 }

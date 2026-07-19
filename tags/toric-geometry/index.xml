@@ -1,1 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Toric Geometry on Grisha Taroyan</title><link>https://grishataroyan.org/tags/toric-geometry/</link><description>Recent content in Toric Geometry on Grisha Taroyan</description><generator>Hugo</generator><language>en-US</language><lastBuildDate/><atom:link href="https://grishataroyan.org/tags/toric-geometry/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Toric Geometry on Grisha Taroyan</title><link>https://grishataroyan.org/tags/toric-geometry/</link><description>Recent content in Toric Geometry on Grisha Taroyan</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Thu, 16 Jul 2026 00:00:00 -0400</lastBuildDate><atom:link href="https://grishataroyan.org/tags/toric-geometry/index.xml" rel="self" type="application/rss+xml"/><item><title>A compact complex surface without divisors</title><link>https://grishataroyan.org/blog/no-submanifolds/</link><pubDate>Thu, 16 Jul 2026 00:00:00 -0400</pubDate><guid>https://grishataroyan.org/blog/no-submanifolds/</guid><description>&lt;div class="compiled-latex"&gt;
+&lt;h2 class='likesectionHead' id='contents'&gt; &lt;a id='x1-1000'&gt;&lt;/a&gt;Contents&lt;/h2&gt;
+ &lt;div class='tableofcontents'&gt;
+ &lt;span class='sectionToc'&gt;&lt;span class='toc-number' aria-hidden='true'&gt;1&lt;/span&gt;&lt;a href='#why-i-decided-to-write-this-post' id='QQ2-1-2'&gt;Why I decided to write this post&lt;/a&gt;&lt;/span&gt;
+&lt;br /&gt; &lt;span class='sectionToc'&gt;&lt;span class='toc-number' aria-hidden='true'&gt;2&lt;/span&gt;&lt;a href='#complex-tori-and-abelian-surfaces' id='QQ2-1-3'&gt;Complex tori and abelian surfaces&lt;/a&gt;&lt;/span&gt;
+&lt;br /&gt; &lt;span class='sectionToc'&gt;&lt;span class='toc-number' aria-hidden='true'&gt;3&lt;/span&gt;&lt;a href='#an-explicit-example' id='QQ2-1-4'&gt;An explicit example&lt;/a&gt;&lt;/span&gt;
+&lt;br /&gt; &lt;span class='sectionToc'&gt;&lt;span class='toc-number' aria-hidden='true'&gt;4&lt;/span&gt;&lt;a href='#why-this-example-is-generic' id='QQ2-1-5'&gt;Why this example is generic&lt;/a&gt;&lt;/span&gt;
+&lt;br /&gt; &lt;span class='sectionToc'&gt;&lt;span class='toc-number' aria-hidden='true'&gt;&lt;/span&gt;&lt;a href='#references' id='QQ2-1-6'&gt;References&lt;/a&gt;&lt;/span&gt;
+ &lt;/div&gt;
+
+
+
+ &lt;h2 class='sectionHead' id='why-i-decided-to-write-this-post'&gt;&lt;span class='titlemark'&gt;1 &lt;/span&gt; &lt;a id='x1-20001'&gt;&lt;/a&gt;Why I decided to write this post&lt;/h2&gt;
+&lt;p class='noindent'&gt;This post (as most others in this blog will be) is an example that I have to recall
+quite often, but can never remember the details. On one hand, it is a very
+simple example, on the other hand, it shows a huge difference between
+the algebraic and complex geometry. For instance, it shows that some
+naïve analogies between algebraic and holomorphic “toric” geometries
+can not literally be true. In particular, it shows how the relationship
+between Cartier divisors and line bundles breaks down in the non-algebraic
+case.
+&lt;/p&gt;</description></item></channel></rss>
