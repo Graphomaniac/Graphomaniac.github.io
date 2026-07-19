@@ -1,0 +1,50 @@
+name: Moderate blog comments
+
+on:
+  issue_comment:
+    types: [created, edited]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  moderate:
+    if: ${{ github.event.issue.pull_request == null && github.event.comment.user.type != 'Bot' && contains(github.event.issue.labels.*.name, 'blog-comments') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Pages repository
+        uses: actions/checkout@v4
+
+      - name: Remove blocked language
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const filter = JSON.parse(fs.readFileSync("comments-filter.json", "utf8"));
+            const normalize = (value) => value
+              .normalize("NFKD")
+              .toLowerCase()
+              .replace(/[\u0300-\u036f]/g, "")
+              .replace(/[@4]/g, "a")
+              .replace(/3/g, "e")
+              .replace(/[1|]/g, "i")
+              .replace(/0/g, "o")
+              .replace(/[$5]/g, "s")
+              .replace(/7/g, "t")
+              .replace(/[^a-z0-9]+/g, " ")
+              .trim()
+              .replace(/\s+/g, " ");
+            const body = ` ${normalize(context.payload.comment.body || "")} `;
+            const blocked = (filter.terms || []).some((term) =>
+              body.includes(` ${normalize(term)} `)
+            );
+
+            if (blocked) {
+              await github.rest.issues.deleteComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: context.payload.comment.id,
+              });
+              core.notice("Removed a comment that matched the language filter.");
+            }

@@ -1,0 +1,412 @@
+@font-face {
+  font-family: "Blog Math Operators";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./fonts/KaTeX_Main-Regular.woff2") format("woff2");
+}
+
+.blog-index .container,
+.secondary-page .blog-article {
+  max-width: 760px;
+}
+
+.blog-index-intro {
+  margin: 1.5rem 0 2.25rem;
+  color: var(--site-muted);
+}
+
+.blog-index-entry {
+  padding: 1.35rem 0 1.5rem;
+  border-top: 1px solid var(--site-border);
+}
+
+.blog-index-entry h2 {
+  margin: 0;
+  font-size: 1.42rem;
+}
+
+.blog-index-entry h2 a {
+  color: var(--body-color);
+  text-decoration: none;
+}
+
+.blog-index-entry h2 a:hover {
+  color: var(--site-accent);
+}
+
+.blog-index-meta,
+.blog-post-meta {
+  margin-top: 0.35rem;
+  color: var(--site-muted);
+  font-size: 0.94rem;
+}
+
+.blog-index-description {
+  margin-top: 0.6rem;
+}
+
+.blog-post-header .hero-subtitle {
+  margin-bottom: 0;
+}
+
+.blog-article {
+  padding-top: 2rem;
+}
+
+.compiled-latex {
+  counter-reset: theorem;
+}
+
+.compiled-latex > :first-child {
+  margin-top: 0;
+}
+
+.compiled-latex .sectionHead,
+.compiled-latex .likesectionHead,
+.compiled-latex .subsectionHead,
+.compiled-latex .subsubsectionHead {
+  color: var(--body-color);
+}
+
+.compiled-latex .sectionHead {
+  margin-top: 2.8rem;
+  font-size: 1.62rem;
+}
+
+.compiled-latex .subsectionHead {
+  margin-top: 2rem;
+  font-size: 1.22rem;
+}
+
+.compiled-latex .likesectionHead {
+  margin-top: 0;
+  font-size: 1.22rem;
+}
+
+.compiled-latex .subsubsectionHead {
+  margin-top: 1.65rem;
+  font-size: 1.08rem;
+}
+
+.compiled-latex .newtheorem,
+.compiled-latex .theorem,
+.compiled-latex .lemma,
+.compiled-latex .proposition,
+.compiled-latex .corollary,
+.compiled-latex .definition,
+.compiled-latex .example,
+.compiled-latex .remark,
+.compiled-latex .construction,
+.compiled-latex .question,
+.compiled-latex .proof {
+  margin: 1.35rem 0;
+}
+
+.compiled-latex .newtheorem .head,
+.compiled-latex .theorem .head,
+.compiled-latex .lemma .head,
+.compiled-latex .proposition .head,
+.compiled-latex .corollary .head,
+.compiled-latex .definition .head,
+.compiled-latex .example .head,
+.compiled-latex .remark .head,
+.compiled-latex .construction .head,
+.compiled-latex .question .head,
+.compiled-latex .proof .head {
+  font-weight: 600;
+}
+
+.compiled-latex .head .underline,
+.compiled-latex .proof-collapsible summary {
+  text-decoration-line: underline;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.12em;
+  text-decoration-skip-ink: none;
+}
+
+.compiled-latex .theorem,
+.compiled-latex .lemma,
+.compiled-latex .proposition,
+.compiled-latex .corollary {
+  font-style: italic;
+}
+
+.compiled-latex .proof::before,
+.compiled-latex .proof::after {
+  content: none;
+}
+
+.compiled-latex mo {
+  font-family: "Blog Math Operators", math;
+  font-weight: 400;
+}
+
+.compiled-latex dl.enumerate-enumitem,
+.compiled-latex dl.thebibliography {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 0.7rem 0.8rem;
+  margin: 1rem 0;
+}
+
+.compiled-latex dt.enumerate-enumitem,
+.compiled-latex dt.thebibliography {
+  grid-column: 1;
+  align-self: start;
+}
+
+.compiled-latex dd.enumerate-enumitem,
+.compiled-latex dd.thebibliography {
+  grid-column: 2;
+  min-width: 0;
+  text-align: left;
+}
+
+.compiled-latex dl.thebibliography {
+  gap: 1.1rem 0.9rem;
+}
+
+.compiled-latex dt.thebibliography {
+  font-weight: 600;
+}
+
+.compiled-latex dd.thebibliography p {
+  margin: 0;
+  text-align: left;
+}
+
+.compiled-latex dd.thebibliography a {
+  overflow-wrap: anywhere;
+}
+
+.compiled-latex details.proof-collapsible {
+  margin: 1.35rem 0;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--site-border);
+}
+
+.compiled-latex .proof-collapsible summary {
+  width: fit-content;
+  color: var(--body-color);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.compiled-latex .proof-collapsible summary::marker {
+  color: var(--site-accent);
+}
+
+.compiled-latex .proof-collapsible .proof-body {
+  margin-top: 0.75rem;
+}
+
+.compiled-latex .proof-collapsible .proof-body .head {
+  display: none;
+}
+
+.compiled-latex .proof-collapsible .proof-body > :first-child {
+  margin-top: 0;
+}
+
+.compiled-latex .proof-collapsible .proof-body > :last-child {
+  margin-bottom: 0;
+}
+
+.compiled-latex math[display="block"],
+.compiled-latex .math-display,
+.compiled-latex .equation,
+.compiled-latex .equation-star {
+  max-width: 100%;
+  margin: 1.4rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.compiled-latex figure,
+.compiled-latex img,
+.compiled-latex svg {
+  max-width: 100%;
+}
+
+.compiled-latex .latex-diagram {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 1rem auto;
+}
+
+.latex-dark .compiled-latex .latex-diagram[src$=".svg"] {
+  filter: invert(1);
+}
+
+.compiled-latex table:not(.equation):not(.equation-star) {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.compiled-latex table:not(.equation):not(.equation-star) th,
+.compiled-latex table:not(.equation):not(.equation-star) td {
+  padding: 0.35rem 0.55rem;
+  border: 1px solid var(--site-border);
+}
+
+.compiled-latex table.equation,
+.compiled-latex table.equation-star {
+  width: 100%;
+  border: 0;
+  border-collapse: collapse;
+  counter-increment: none;
+}
+
+.compiled-latex table.equation td,
+.compiled-latex table.equation-star td {
+  padding: 0;
+  border: 0;
+}
+
+.compiled-latex table.equation > tbody > tr > td,
+.compiled-latex table.equation-star > tbody > tr > td {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.compiled-latex .tableofcontents {
+  margin: 1.5rem 0 2.5rem;
+  padding: 1rem 0 1rem 1.2rem;
+  border-left: 2px solid var(--site-border);
+}
+
+.compiled-latex .tableofcontents > br {
+  display: none;
+}
+
+.compiled-latex .tableofcontents > .sectionToc,
+.compiled-latex .tableofcontents > .subsectionToc,
+.compiled-latex .tableofcontents > .subsubsectionToc {
+  display: grid;
+  grid-template-columns: 2.75rem minmax(0, 1fr);
+  column-gap: 0.6rem;
+  align-items: baseline;
+  margin: 0.55rem 0;
+}
+
+.compiled-latex .tableofcontents > .subsectionToc {
+  padding-inline-start: 1.35rem;
+}
+
+.compiled-latex .tableofcontents > .subsubsectionToc {
+  padding-inline-start: 2.7rem;
+}
+
+.compiled-latex .tableofcontents .toc-number {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.blog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1rem;
+  max-width: 760px;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--site-border);
+  font-size: 0.94rem;
+}
+
+.blog-comments {
+  max-width: 760px;
+  margin-top: 2.6rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid var(--site-border);
+}
+
+.blog-comments-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.blog-comments-heading h2 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.blog-comments-action {
+  flex: 0 0 auto;
+  font-size: 0.94rem;
+}
+
+.blog-comments-status {
+  margin: 0.65rem 0 0;
+  color: var(--site-muted);
+  font-size: 0.94rem;
+}
+
+.blog-comment {
+  padding: 1rem 0 0.15rem;
+  border-top: 1px solid var(--site-border);
+}
+
+.blog-comments-list:not(:empty) {
+  margin-top: 1rem;
+}
+
+.blog-comment-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--site-muted);
+  font-size: 0.9rem;
+}
+
+.blog-comment-avatar {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--site-border);
+  border-radius: 50%;
+}
+
+.blog-comment-author {
+  font-weight: 600;
+}
+
+.blog-comment-time {
+  margin-left: auto;
+}
+
+.blog-comment-body {
+  margin: 0.65rem 0 0.75rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 700px) {
+  .blog-index-entry h2 {
+    font-size: 1.28rem;
+  }
+
+  .compiled-latex .sectionHead {
+    font-size: 1.42rem;
+  }
+
+  .blog-comments-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .blog-comment-header {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .blog-comment-time {
+    width: 100%;
+    margin-left: 2.6rem;
+  }
+}

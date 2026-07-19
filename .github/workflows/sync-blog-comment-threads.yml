@@ -1,0 +1,111 @@
+name: Sync blog comment threads
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - comments-manifest.json
+      - .github/workflows/sync-blog-comment-threads.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Pages repository
+        uses: actions/checkout@v4
+
+      - name: Create or update comment threads
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const manifest = JSON.parse(fs.readFileSync("comments-manifest.json", "utf8"));
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const label = "blog-comments";
+
+            try {
+              await github.rest.issues.getLabel({ owner, repo, name: label });
+            } catch (error) {
+              if (error.status !== 404) throw error;
+              await github.rest.issues.createLabel({
+                owner,
+                repo,
+                name: label,
+                color: "356779",
+                description: "Comment threads shown below blog posts",
+              });
+            }
+
+            const issues = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: "all",
+              labels: label,
+              per_page: 100,
+            });
+            const activePaths = new Set(manifest.posts.map((post) => post.path));
+
+            for (const post of manifest.posts) {
+              const marker = `<!-- blog-comment-key: ${post.path} -->`;
+              const title = `[Comments] ${post.title}`;
+              const body = [
+                marker,
+                "",
+                `Comments for [${post.title}](${post.url}).`,
+                "",
+                "Please keep the discussion relevant and civil.",
+              ].join("\n");
+              const existing = issues.find((issue) =>
+                !issue.pull_request && (issue.body || "").includes(marker)
+              );
+
+              if (existing) {
+                if (
+                  existing.title !== title ||
+                  existing.body !== body ||
+                  existing.state !== "open"
+                ) {
+                  await github.rest.issues.update({
+                    owner,
+                    repo,
+                    issue_number: existing.number,
+                    title,
+                    body,
+                    state: "open",
+                    labels: [label],
+                  });
+                }
+              } else {
+                const created = await github.rest.issues.create({
+                  owner,
+                  repo,
+                  title,
+                  body,
+                  labels: [label],
+                });
+                issues.push(created.data);
+              }
+            }
+
+            for (const issue of issues) {
+              if (issue.pull_request) continue;
+              const match = (issue.body || "").match(
+                /<!-- blog-comment-key: ([^>]+) -->/
+              );
+              const path = match && match[1].trim();
+              if (path && !activePaths.has(path) && issue.state === "open") {
+                await github.rest.issues.update({
+                  owner,
+                  repo,
+                  issue_number: issue.number,
+                  state: "closed",
+                  state_reason: "not_planned",
+                });
+              }
+            }
