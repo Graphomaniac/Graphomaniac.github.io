@@ -380,6 +380,31 @@
   line-height: 1.55;
 }
 
+.blog-footnote-context-marker {
+  font-size: 0.72em;
+  line-height: 0;
+}
+
+.blog-footnote-entry {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 0.38rem;
+  align-items: start;
+}
+
+.blog-footnote-number {
+  grid-column: 1;
+  margin-top: 0.12rem;
+  color: var(--body-color);
+  font-size: 0.72rem;
+  line-height: 1;
+}
+
+.blog-footnote-content {
+  grid-column: 2;
+  min-width: 0;
+}
+
 .blog-footnote-content .indent {
   text-indent: 0;
 }
