@@ -12,6 +12,7 @@
   document.body.append(tooltip);
 
   let activeLink = null;
+  let suppressFocusPreview = false;
 
   const positionTooltip = () => {
     if (!activeLink || tooltip.hidden) {
@@ -58,11 +59,48 @@
     tooltip.hidden = true;
   };
 
+  const updateTooltipOnScroll = () => {
+    if (!activeLink || tooltip.hidden) {
+      return;
+    }
+    const anchor = activeLink.getBoundingClientRect();
+    const isVisible =
+      anchor.bottom >= 0 &&
+      anchor.top <= window.innerHeight &&
+      anchor.right >= 0 &&
+      anchor.left <= window.innerWidth;
+    if (!isVisible) {
+      hideTooltip();
+      return;
+    }
+    positionTooltip();
+  };
+
   for (const link of links) {
-    link.addEventListener("pointerenter", () => showTooltip(link));
+    link.addEventListener("pointerenter", (event) => {
+      if (event.pointerType !== "touch") {
+        showTooltip(link);
+      }
+    });
     link.addEventListener("pointerleave", hideTooltip);
-    link.addEventListener("focus", () => showTooltip(link));
-    link.addEventListener("blur", hideTooltip);
+    link.addEventListener("pointerdown", (event) => {
+      suppressFocusPreview = event.pointerType === "touch";
+      if (suppressFocusPreview) {
+        hideTooltip();
+      }
+    });
+    link.addEventListener("focus", () => {
+      if (suppressFocusPreview) {
+        suppressFocusPreview = false;
+        return;
+      }
+      showTooltip(link);
+    });
+    link.addEventListener("blur", () => {
+      suppressFocusPreview = false;
+      hideTooltip();
+    });
+    link.addEventListener("click", hideTooltip);
   }
 
   document.addEventListener("keydown", (event) => {
@@ -71,5 +109,5 @@
     }
   });
   window.addEventListener("resize", positionTooltip);
-  window.addEventListener("scroll", positionTooltip, true);
+  window.addEventListener("scroll", updateTooltipOnScroll, true);
 })();
