@@ -142,6 +142,42 @@
   font-weight: 400;
 }
 
+.compiled-latex .footnote-mark {
+  display: inline-block;
+  position: relative;
+  margin-inline: 0.08em;
+  line-height: 1;
+}
+
+.compiled-latex .footnote-link {
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.12em;
+}
+
+.footnote-tooltip {
+  position: fixed;
+  z-index: 1000;
+  width: min(24rem, calc(100vw - 1.5rem));
+  max-height: calc(100vh - 1.5rem);
+  padding: 0.6rem 0.72rem;
+  border: 1px solid var(--site-border);
+  background: var(--body-bg-color);
+  box-shadow: 0 0.45rem 1.35rem hsl(0 0% 0% / 18%);
+  color: var(--body-color);
+  font-family: "Spectral", Georgia, serif;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: left;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.footnote-tooltip[hidden] {
+  display: none;
+}
+
 .compiled-latex dl.enumerate-enumitem,
 .compiled-latex dl.thebibliography {
   display: grid;
@@ -315,6 +351,33 @@
   padding-top: 1rem;
   border-top: 1px solid var(--site-border);
   font-size: 0.94rem;
+}
+
+.blog-footnote-page {
+  padding-top: 3rem;
+}
+
+.blog-footnote-page .container {
+  max-width: 620px;
+}
+
+.blog-footnote-article h1 {
+  margin: 0 0 1.2rem;
+  font-size: 1.65rem;
+}
+
+.blog-footnote-content .indent {
+  text-indent: 0;
+}
+
+.blog-footnote-content > :first-child {
+  margin-top: 0;
+}
+
+.blog-footnote-return {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--site-border);
 }
 
 .blog-comments {
